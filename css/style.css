@@ -1,0 +1,9 @@
+/* Style pour centrer le logo */
+.logo-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.logo-container img {
+    max-width: 50px; /* Ajuster la taille du logo */
+}
