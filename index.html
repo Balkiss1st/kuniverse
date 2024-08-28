@@ -1,53 +1,345 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>K.Universe restaurant </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="ok.css">
+  <title>K.Universe restaurant </title>
 </head>
+
 <body>
-   
-    <!-- Barre de navigation avec logo -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/logok.jpg" alt="K-Universe Logo" width="50" height="50" class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+
+
+  <!-- Barre de navigation avec logo -->
+  <header style="height: 100px;">
+    <!-- Image du logo -->
+    <div class="container " style="text-align: center;">
+      <img src="img/loggg.jpg" alt="Logokuniverse" style="height: 50px;">
+    </div>
+    <div class="container-fluid ">
+      <nav class="navbar justify-content-center d-flex" style="background-color: rgba(44,62, 80, 0.5);">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#bienv">Accueil</a></li>
+          <li class="nav-item"><a href="#">Menu</a></li>
+          <li class="nav-item"><a href="#">Services</a></li>
+          <li class="nav-item"><a href="#">À propos</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Fin de la barre de navigation -->
+
+  <section>
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/buffet.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>BUFFET K-UNIVERSE</h5>
+              <p>Votre festin,notre passion.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/pizza.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PIZZA K-UNIVERSE</h5>
+              <p>Votre festin,notre festin.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/poulet.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>POULET K-UNIVERSE</h5>
+              <p> Votre festin,notre passion.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <nav class="navbar navbar-expand">
-                <div class="container">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#kissoualg">Qui suis-je ?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#expertise">Expertises</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-              </div>
-            </nav>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="presentation">
+    <hr style="background-color: black;height: 0px;">
+    <h1 id="bienv" class="kuniverse">
+      Bienvenue sur le site de K-Universe</h1>
+    <hr style="background-color: black;">
+    <p>Votre entreprise polyvalente pour la restauration en ligne ,la livraison de repas,la vente d'ustensiles
+      de patisserie et de cuisine , organisation d'ateliers de formation et diverses prestation de services.
+    </p>
+  </section>
+  <div style="text-align: center;" class="container" id="realisation">
+    <img src="img/buffettt.jpg" alt="plat">
+  </div>
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2>Mes réalisations</h2>
+      <h3>Chez K-Universe, votre festin notre passion</h3>
+
+      <div class="row gy-4 mt-5">
+        <div class="col-12 col-md-7">
+          <div class="bg-warning h-100 w-100 py-5">
+          </div>
+        </div>
+        <div class="col-12 offset-md-1 col-md-4">
+          <img src="img/galetteeor.jpg" alt="plat" width="100%">
         </div>
       </div>
-    </nav>
-    
-    <!-- Section de présentation du logo centré -->
-    <div class="logo-container">
-        <img src="img/logok.jpg" alt="K-Universe Logo">
-        <h1>Bienvenue sur K-Universe</h1>
+
+      <div class="row gy-4 mt-5">
+        <div class="col-12 col-md-4">
+          <img src="img/chawarma.jpg" alt="plat" width="100%">
+        </div>
+        <div class="col-12 offset-md-1 col-md-7">
+          <div class="bg-secondary h-100 w-100 py-5">
+          </div>
+        </div>
+      </div>
     </div>
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  </section>
+  <!-- 
+  <section  >
+    <div id="rowc" class="row">
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  -->
+
+  <hr color="black">
+  <section>
+    <!-- grande div avec un bacground color noir c -->
+    <div class="container-fluid" style="background-color: b(245, 242, 242); height: 700px;">
+      <hr style="height: 0px;background-color: black;">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+
+            <img src="img/ecmenu.jpg" alt="Menu" style="height: 600px;width: 100%;">
+            <h3 id="okk" style="font-size: larger;font-weight: bold;font-size: 24px;">Découvrez notre menu varié et
+              savourez chaque plat en faisant défiler pour explorer toutes nos délicieuses options?</h3>
+
+            <p style="font-weight: normal;">Chaque section de notre menu est soigneusement conçue pour offrir une
+              expérience culinaire unique , adaptée à tous les gouts.</p>
+            <p style="font-weight: normal; font-size: small;"> BON VISIONAGE.</p>
+          </div>
+          <div class="col-4">
+            <!-- scroller vertical sur les grands ecran et horizontal sur les petits ecrans(css applique grace a l'id idscroller) -->
+            <div class="row" id="idscroller">
+              <h3 style="color: black;font-weight: bolder;"> Explorer</h3>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="img/chawarma.jpg" alt="plat" class="" style="height: 70px;width: 100%;">
+                  </div>
+                  <div class="col-6">
+                    <h4 style="font-size: larger;font-weight: bold;"> Chawarma </h4>
+                    <p style="font-weight: normal; font-size: smaller;">Un des délices de chez K-Universe </p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="img/cupcakess.jpg" alt="plat" class="" style="height: 70px;width: 100%;">
+                  </div>
+                  <div class="col-6">
+                    <h4 style="font-size: larger;font-weight: bold;"> Cupcakes</h4>
+                    <p style="font-weight: normal; font-size: smaller;">Légés sucrés et colorés.</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="img/tacos.jpg" alt="plat" class="" style="height: 70px;width: 100%;">
+                  </div>
+                  <div class="col-6">
+                    <h4 style="font-size: larger;font-weight: bold;"> Tacos </h4>
+                    <p style="font-weight: normal; font-size: smaller;">Exquis et epicé.</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="img/galetteeor.jpg" alt="plat" class="" style="height: 70px;width: 100%;">
+                  </div>
+                  <div class="col-6">
+                    <h4 style="font-size: larger;font-weight: bold;">Galette d'or</h4>
+                    <p style="font-weight: normal; font-size: smaller;">innovante délicate et rafinée.</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="img/tajinec.jpg" alt="plat" class="" style="height: 100px;width: 100%;">
+                  </div>
+                  <div class="col-6">
+                    <h4 style="font-size: larger;font-weight: bold;">Tajine tunisien </h4>
+                    <p style="font-weight: normal; font-size: smaller;">Savoureux ,parfumé et fondant.</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <!-- scroller vertical sur les grands ecran et horizontal sur les petits ecrans(css applique grace a l'id idscroller) -->
+
+          </div>
+        </div>
+      </div>
+
+      <hr style="height: 0px;background-color: black;">
+    </div>
+    <!-- grande div avec un bacground color noir contenant des videos -->
+  </section>
+
+  <hr style="background-color: black;">
+  <footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <!-- Section Informations de Contact -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">K-Universe</h5>
+          <p>Nous offrons une large gamme de services allant de la restauration en ligne à l'organisation d'ateliers de
+            formation. Contactez-nous pour plus d'informations.</p>
+        </div>
+        <!-- Section Liens utiles -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Liens utiles</h5>
+          <p><a href="#!" class="text-dark">Accueil</a></p>
+          <p><a href="#!" class="text-dark">Services</a></p>
+          <p><a href="#!" class="text-dark">À propos</a></p>
+          <p><a href="#!" class="text-dark">Contact</a></p>
+        </div>
+        <!-- Section Réseaux sociaux -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p><i class="fas fa-home mr-3"></i> Niamey, Niger</p>
+          <p><i class="fas fa-envelope mr-3"></i> algoubaskissou@icloud.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +227 85 79 79 56</p>
+        </div>
+        <!-- Section Suivez-nous -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Suivez-nous</h5>
+
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p>© 2024 Tous droits réservés. <br><strong>K-Universe</strong></p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <p class="text-right">Design par <a href="#" class="text-dark">K-Universe</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
