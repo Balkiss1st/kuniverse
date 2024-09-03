@@ -1,7 +1,7 @@
 /* Style pour la barre de navigation */
 .navbar {
     background-color:rgba(44, 62, 80, 0.5); /* Couleur de fond de la barre de navigation */
-    padding: 10px 0; /* Padding en haut et en bas */
+    
     text-align: center; /* Centre les éléments horizontalement */
 }
 
@@ -21,20 +21,54 @@
 
 /* Style pour les liens de navigation */
 .nav-item a {
-    color: white; /* Couleur du texte des liens */
+    color: rgb(0, 0, 0); /* Couleur du texte des liens */
     text-decoration: none; /* Enlève le soulignement */
     font-size: 18px; /* Taille de la police */
 }
 
 .nav-item a:hover {
     text-decoration: underline; /* Ajoute un soulignement au survol */
-    color: rgba(50, 40, 40, 0.845);
+    color:#fff333;
 }
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Media Queries pour petits écrans */
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
 .kuniverse{
-    font-family: unset; /* Choisir une police de caractères */
-          font-size: 50px; /* Taille du texte */
+         font-family: fantasy; /* Choisir une police de caractères */
+          font-size: 25px; /* Taille du texte */
           font-weight: bold; /* Texte en gras */
-          color: #f9ef2e; /* Couleur du texte */
+          color: #fff946; /* Couleur du texte */
           text-align: center; /* Centrer le texte */
           margin-top: 50px; /* Marge en haut */
           text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Effet d'ombre pour le texte */
@@ -66,6 +100,8 @@
     border-radius: 8px; /* Bords arrondis pour un effet plus doux */
     background-color: #fff; /* Couleur de fond blanche pour le paragraphe */
 }
+/* Pour le menu scrolleur */
+
 
 /* Style du footer */
 footer {
@@ -81,18 +117,6 @@ footer a {
 footer a:hover {
     color: #ffd700; /* Couleur or au survol */
 }
-
-footer .btn-floating {
-    background-color: transparent; /* Boutons des réseaux sociaux transparents */
-    border: 1px solid #f8f9fa; /* Bordure blanche autour des icônes */
-    border-radius: 50%; /* Forme ronde des boutons */
-}
-
-footer .btn-floating:hover {
-    background-color: #ffd700; /* Fond or au survol */
-    border-color: #ffd700; /* Bordure or au survol */
-}
-
 footer h5 {
     margin-bottom: 1.5rem;
     font-weight: bold;
@@ -100,9 +124,292 @@ footer h5 {
 #rowc{
     display: flex; /* Utilisation de flexbox */
     flex-wrap: wrap;/* Permet aux élements de passer a la ligne suivante si nécessaire */
-    gap: 100px;/* espacement entre les élements */
+    gap: 0px;/* espacement entre les élements */
 }
-#idscroller{
-    height: 600px;
-    overflow: scroll;
+/* style rs */
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.contact-item i {
+    margin-bottom: 5px; /* Ajustez selon votre besoin */
+}
+
+.contact-text {
+    margin: 0;
+}
+
+/* STYLE DU MENU SCROLLEUR */
+
+/* Style général pour les images */
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+}
+
+
+/* Style pour la zone de défilement du menu */
+.menu-scroll {
+    max-height: 60%;
+    overflow:scroll;
+}
+
+/* Style pour les éléments du menu */
+.menu-item {
+    margin-bottom: 20px;
+}
+
+/* Font size pour les titres et paragraphes */
+.font-size-lg {
+    font-size: 1.25rem;
+}
+
+.font-size-sm {
+    font-size: 0.875rem;
+}
+
+/* Assurez-vous que la section et les éléments sont bien espacés */
+.bg-light {
+    background-color: #f5f2f2;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+/* Style général pour la section */
+section.py-5.bg-light {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f8f9fa;
+}
+
+/* Style pour le conteneur des cartes */
+.container.text-center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style pour les titres de la section */
+h1#services {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+/* Style pour les cartes */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Effet au survol des cartes */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Style pour les images des cartes */
+.card-img-top {
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Style pour les titres dans les cartes */
+.card-title {
+    font-size: 1.25rem;
+    color: #343a40;
+}
+
+/* Style pour le texte des cartes */
+.card-text {
+    font-size: 1rem;
+    color: #495057;
+}
+
+/* Style pour les éléments de liste dans les cartes */
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1.25rem;
+    background-color: #f8f9fa;
+}
+
+/* Style pour les liens dans les cartes */
+.card-link {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.card-link:hover {
+    color:#ffd700;
+    text-decoration: underline;
+}
+
+/* Espacement entre les cartes */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Style pour les colonnes */
+.col-md-3.col-sm-6 {
+    display: flex;
+    justify-content: center;
+}
+/* Formulaires */
+/* General styles */
+.order-form-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #000000;
+  }
+  
+  .order-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    background-color: #ffd700;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color:#ffd700;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+
+  /* Section articles */
+  .products-section {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #050505;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .products-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  
+  .product-item {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+/* Passer la commande */
+  .order-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffee8d;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #ffd700;
+  }
+  
+  @media (max-width: 768px) {
+    .products-carousel {
+      gap: 10px;
+    }
+  
+    .product-item {
+      width: 150px;
+    }
+  }
+
+  /* Couleur de la checkbox */
+  input[type="checkbox"]{
+
+    accent-color: #FFD700;
+  }
+  
