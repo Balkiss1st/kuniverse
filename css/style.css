@@ -65,10 +65,10 @@
 }
 
 .kuniverse{
-         font-family: fantasy; /* Choisir une police de caractères */
+        
           font-size: 25px; /* Taille du texte */
           font-weight: bold; /* Texte en gras */
-          color: #fff946; /* Couleur du texte */
+          color: #fff944; /* Couleur du texte */
           text-align: center; /* Centrer le texte */
           text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Effet d'ombre pour le texte */
           margin-bottom: 10px; /* Espace sous le titre */
@@ -151,7 +151,7 @@ footer h5 {
 
 /* Style pour la zone de défilement du menu */
 .menu-scroll {
-    max-height: 60%;
+    max-height: 100%;
     overflow:scroll;
 }
 
@@ -162,11 +162,11 @@ footer h5 {
 
 /* Font size pour les titres et paragraphes */
 .font-size-lg {
-    font-size: 1.25rem;
+    font-size: 50px;
 }
 
 .font-size-sm {
-    font-size: 0.875rem;
+    font-size: 40px;
 }
 
 /* Assurez-vous que la section et les éléments sont bien espacés */
@@ -209,12 +209,12 @@ h3 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 /* Effet au survol des cartes */
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-50px);
 }
 
 /* Style pour les images des cartes */
@@ -411,4 +411,10 @@ h3 {
 
     accent-color: #FFD700;
   }
-  
+/* cacher container message alerte formulaire envoyer avec succès*/
+#confirmationMessage{
+  display: none;
+}
+#confirmationMessage_registration{
+  display: none;
+}

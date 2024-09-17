@@ -11,17 +11,21 @@
   <link rel="stylesheet" href="fontawesome/css/all.css">
   <style>
     #idscroller {
-      max-height: 1170px; /* Fixe la hauteur maximale à 400px */
-      overflow-y: auto;  /* Active le défilement vertical */
-      padding-right: 10px; /* Ajoute un padding pour la scrollbar */
+      max-height: 1170px;
+      /* Fixe la hauteur maximale à 400px */
+      overflow-y: auto;
+      /* Active le défilement vertical */
+      padding-right: 10px;
+      /* Ajoute un padding pour la scrollbar */
     }
 
-    #idscroller::-webkit-scrollbar {
+    /* #idscroller::-webkit-scrollbar {
       width: 8px;
-    }
+    } */
 
     #idscroller::-webkit-scrollbar-thumb {
-      background-color: #ffd700; /* Change la couleur de la barre de défilement */
+      background-color: #a9a9a9;
+      /* Change la couleur de la barre de défilement */
       border-radius: 10px;
     }
   </style>
@@ -40,7 +44,7 @@
 
     <!-- barre de nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <div  class="container-fluid">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,22 +80,22 @@
         </div>
       </div>
     </nav>
-
-
   </header>
   <!-- Fin de la barre de navigation -->
-  <section class="presentation">
-    <div class="container"><h1 style=" white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;" id="bienv" class="kuniverse">
-     Welcome <br>to <br>K-UNIVERSE
-    </h1></div>
+  <section  class="presentation">
+    <div class="container">
+      <h1 style=" white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;" id="bienv" class="kuniverse">
+        Welcome <br>to <br>K-UNIVERSE
+      </h1>
+    </div>
     <br>
     <p>Votre entreprise polyvalente pour la restauration en ligne ,la livraison de repas,la vente d'ustensiles
       de patisserie et de cuisine , organisation d'ateliers de formation et diverses prestation de services.
     </p>
   </section>
   <section>
-    
-    <div class="container">
+
+    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="container">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -137,10 +141,8 @@
       </div>
     </div>
   </section>
-  <hr color="black">
   <section id="menu" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-    <div class="container bg-light py-5">
-      <hr class="my-4">
+    <div class="container bg-light py-1">
       <h3 id="okk" style="font-size: larger;font-weight: bold;font-size: 40px;">Découvrez notre menu varié
         et
         savourez chaque plat en faisant défiler pour explorer toutes nos délicieuses options.</h3>
@@ -149,7 +151,7 @@
         <!-- Contenu défilant -->
         <div id="idscroller" class="col-lg-12 col-md-12">
           <h3 class="text-dark font-weight-bold"> <strong>Explorer notre menu </strong></h3>
-          <div  class="menu-scroll">
+          <div class="menu-scroll">
             <!-- Plat 1 -->
             <div class="menu-item">
               <div class="row">
@@ -276,7 +278,7 @@
                             </div>
                             <div class="col-8">
                               <h4 class="font-size-lg font-weight-bold">Dambou </h4>
-                              <p class="font-size-sm"> Personnalisable </p>
+                              <p class="font-size-sm" > Personnalisable </p>
                             </div>
                           </div>
                           <hr>
@@ -287,7 +289,7 @@
                               </div>
                               <div class="col-8">
                                 <h4 class="font-size-lg font-weight-bold">Nems </h4>
-                                <p class="font-size-sm">  </p>
+                                <p class="font-size-sm"> </p>
                               </div>
                             </div>
                             <hr>
@@ -302,14 +304,14 @@
                                 </div>
                               </div>
                               <hr>
+                            </div>
+                            <!-- Autres plats répétés pour l'exemple -->
+                            <!-- Répétez ces blocs si nécessaire -->
+                          </div>
                         </div>
-                        <!-- Autres plats répétés pour l'exemple -->
-                        <!-- Répétez ces blocs si nécessaire -->
                       </div>
                     </div>
-                  </div>
-                </div>
-                
+
   </section>
   <!-- SERVICES -->
   <section class="py-5 bg-light" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
@@ -390,7 +392,7 @@
   </section>
 
   <!-- Nos différents articles -->
-  <section class="products-section">
+  <section data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="products-section">
     <div class="container">
       <h2 id="articlee" class="section-title">Nos Ustensiles de Cuisine</h2>
       <div class="products-carousel">
@@ -423,57 +425,62 @@
       <button type="submit" class="order-button">Passer la Commande</button>
     </div>
   </section>
-  <div class="container" >
-  <p style="text-align: center;" > NB: Notre site est encore en cours de développement .Certaines fonctionnalités telles <br>que les formulaires de commandes et d'Inscription ne sont pas encore disponibles.Merci de votre compréhension ! 
-  Pour plus d'infos <a href="#contact">CONTACTEZ-NOUS</a></p>
+  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="container">
+    <p style="text-align: center;"> NB: Notre site est encore en cours de développement .Certaines fonctionnalités
+      telles <br>que les formulaires de commandes et d'Inscription ne sont pas encore disponibles.Merci de votre
+      compréhension !
+      Pour plus d'infos <a href="#contact">CONTACTEZ-NOUS</a></p>
   </div>
   <!-- FORMULAIRE DE COMMANDE -->
-  <section id="comm" class="order-form-section">
+  <section data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" id="comm" class="order-form-section">
     <div class="container">
+      <!--  Message de confirmation -->
+      <div class="container" id="confirmationMessage" style="
+      padding: 20px; 
+      margin-top: 20px; 
+      border-radius: 10px; 
+      background-color: #d4edda; 
+      color: #155724; 
+      border: 2px solid #c3e6cb;
+      font-size: 18px; 
+      text-align: center; 
+      max-width: 500px;
+      margin: 20px auto; ">
+      </div>
       <h2 class="form-title">Formulaire de Commande</h2>
-      <form class="order-form" id="orderForm" method="post" action="algoubaskissou@icloud.com" enctype="text/plain">
+      <form class="order-form" id="orderForm" method="post" enctype="text/plain">
         <div class="form-group">
           <label for="name">Nom:</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name" name="name">
+          <span id="erreurNom" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email">
+          <span id="erreurEmail" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="phone">Téléphone:</label>
-          <input type="tel" id="phone" name="phone" required>
+          <input type="tel" id="phone" name="phone">
+          <span id="erreurPhone" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="address">Adresse:</label>
-          <textarea id="address" name="address" rows="4" required></textarea>
+          <textarea id="address" name="address" rows="4"></textarea>
+          <span id="erreurAdresse" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="products">Produits:</label>
-          <select id="products" name="products[]" multiple required>
+          <select id="products" name="products[]">
             <option value="Crêpes nature">Crêpes nature</option>
-            <option value="Crêpes au chocolat">Crêpes au chocolat</option>
-            <option value="Buffet">Buffet</option>
-            <option value="Tacos">Tacos</option>
-            <option value="Chawarma">Chawarma</option>
-            <option value="Galette dor">Galette d’or</option>
-            <option value="Attiéké">Attiéké</option>
-            <option value="Frites">Frites</option>
-            <option value="Aloco">Aloco</option>
-            <option value="Poisson fourré">Poisson fourré</option>
-            <option value="Autres">Pastels</option>
-            <option value="Attiéké">Brics</option>
-            <option value="Attiéké">Nems</option>
-            <option value="Attiéké">Dambou</option>
-            <option value="Attiéké">Poisson</option>
-            <option value="Attiéké">gratin de pomme de terre</option>
-            <option value="Attiéké">Tajine tunisien</option>
-            <option value="Attiéké">Poulet</option>
+            <!-- Autres options -->
           </select>
+          <span id="erreurProduits" style="color:red;"></span>
         </div>
         <div class="form-group">
           <label for="quantity">Quantité:</label>
-          <input type="number" id="quantity" name="quantity" min="1" required>
+          <input type="number" id="quantity" name="quantity" min="1">
+          <span id="erreurQuantite" style="color: red;"></span>
         </div>
         <div class="form-group">
           <button type="submit" class="submit-btn">Passer la Commande</button>
@@ -482,35 +489,55 @@
     </div>
   </section>
   <!-- FORMULAIRE D'INSCRIPTION -->
-  <section id="ins" class="registration-form-section">
+  <section data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" id="ins" class="registration-form-section">
     <div class="container">
+      <!--  Message de confirmation -->
+      <div class="container" id="confirmationMessage_registration" style="
+      padding: 20px; 
+      margin-top: 20px; 
+      border-radius: 10px; 
+      background-color: #d4edda; 
+      color: #155724; 
+      border: 2px solid #c3e6cb;
+      font-size: 18px; 
+      text-align: center; 
+      max-width: 500px;
+      margin: 20px auto;">
+      </div>
       <h2 class="form-title">Inscription à Nos Formations</h2>
       <form class="registration-form" id="registrationForm" action="algoubaskissou@icloud.com">
         <div class="form-group">
           <label for="name">Nom:</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name_registration" name="name">
+          <span id="erreurNom_registration" style="color:red;"></span>
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email_registration" name="email">
+          <span id="erreurEmail_registration" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="phone">Téléphone:</label>
-          <input type="tel" id="phone" name="phone" required>
+          <input type="tel" id="phone_registration" name="phone">
+          <span id="erreurPhone_registration" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="training-type">Type de Formation:</label>
-          <select id="training-type" name="training-type" required>
+          <select id="training-type" name="training-type">
+            <option value="">Sélectionnez le type de formation</option>
             <option value="en ligne">En Ligne</option>
             <option value="présentielle">Présentielle</option>
           </select>
+          <span id="erreurTrainingType" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="training-mode">Mode de Formation:</label>
-          <select id="training-mode" name="training-mode" required>
+          <select id="training-mode" name="training-mode">
+            <option value="">Sélectionnez le mode de formation</option>
             <option value="groupe">En Groupe</option>
             <option value="individuelle">Individuelle</option>
           </select>
+          <span id="erreurTrainingMode" style="color: red;"></span>
         </div>
         <div class="form-group">
           <label for="message">Message:</label>
@@ -525,7 +552,7 @@
   </section>
 
 
-  <section>
+  <section data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <hr style="background-color: black;">
     <footer data-aos="fade-down-right" class="bg-light text-dark pt-5 pb-4">
       <div class="container text-center text-md-left">
@@ -558,14 +585,14 @@
             <div id="contact" class="contact-item">
               <i class="fas fa-phone" style="font-size: 24px;"></i>
               <p style="color: black;" class="contact-text">+227 85 79 79 56</p>
-              <p  style="color: black;" class="contact-text">+227 86 47 30 69</p>
+              <p style="color: black;" class="contact-text">+227 86 47 30 69</p>
             </div>
           </div>
           <!-- Section Suivez-nous -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="fade-down-right">
             <h5 class="text-uppercase mb-4 font-weight-bold">Suivez-nous</h5>
             <p>
-              <a  href="https://www.instagram.com/invites/contact/?igsh=wzv4w76g1smj&utm_content=vorsqo8"
+              <a href="https://www.instagram.com/invites/contact/?igsh=wzv4w76g1smj&utm_content=vorsqo8"
                 target="_blank">
                 <img src="img/instagram  icone.jpeg" alt="Instagram" style="width: 40px;"> </a>
               <a href="https://wa.me/message/3BJSTCCLRRD3N1" target="_blank">
@@ -581,7 +608,7 @@
           <div data-aos="fade-down-right class=" col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 data-aos="fade-down-right">
 
             <p style="text-align: center;">© 2024 Tous droits réservés. <br><strong>K-Universe</strong></p>
-            <p style="text-align: center;">Designed by  <a href="#" class="text-dark">K-Universe</a></p>
+            <p style="text-align: center;">Designed by <a href="#" class="text-dark">K-Universe</a></p>
 
           </div>
         </div>
@@ -589,10 +616,148 @@
     </footer>
   </section>
 
-  <script src="js/bootstrap.js"></script>
-  <script src="js/bootstrap.bundle.js"></script> 
+  <!-- <script src="js/bootstrap.js"></script> -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <script>
+    document.getElementById('orderForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // On commence par dire que le formulaire est valide
+      let formulaireCorrect = true;
+      // Réinitialiser les messages d'erreur
+      document.getElementById('erreurNom').textContent = '';
+      document.getElementById('erreurEmail').textContent = '';
+      document.getElementById('erreurPhone').textContent = '';
+      document.getElementById('erreurAdresse').textContent = '';
+      document.getElementById('erreurProduits').textContent = '';
+      document.getElementById('erreurQuantite').textContent = '';
+
+      // Vérification du champ "Nom"
+      const nom = document.getElementById('name').value;
+
+      if (nom === '') {
+        document.getElementById('erreurNom').textContent = 'Le nom ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Email"
+      const email = document.getElementById('email').value;
+      if (email === '') {
+        document.getElementById('erreurEmail').textContent = 'L\'email ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Téléphone"
+      const phone = document.getElementById('phone').value;
+      if (phone === '') {
+        document.getElementById('erreurPhone').textContent = 'Le téléphone ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Adresse"
+      const adresse = document.getElementById('address').value;
+      if (adresse === '') {
+        document.getElementById('erreurAdresse').textContent = 'L\'adresse ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Produits"
+      const produits = document.getElementById('products').value;
+      if (produits === '') {
+        document.getElementById('erreurProduits').textContent = 'Vous devez sélectionner un produit.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Quantité"
+      const quantite = document.getElementById('quantity').value;
+      if (quantite === '' || quantite <= 0) {
+        document.getElementById('erreurQuantite').textContent = 'La quantité doit être d\'au moins 1.';
+        formulaireCorrect = false;
+      }
+
+      // Si quelque chose n'est pas rempli correctement, on empêche l'envoi
+      if (formulaireCorrect) {
+        //Affiche le message de confirmation
+        document.getElementById('confirmationMessage').textContent = 'Formulaire rempli avec succès !';
+        /* Rendre le contaire visible  */
+        document.getElementById('confirmationMessage').style.display = 'block';
+        //Réinitialiser le formulaire
+        document.getElementById('orderForm').reset();
+
+      }
+
+    });
+
+
+    //FORMULAIRE 2
+
+    document.getElementById('registrationForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      // On commence par supposer que le formulaire est valide
+      let formulaireCorrect = true;
+
+      // Réinitialiser les messages d'erreur
+      document.getElementById('erreurNom_registration').textContent = '';
+      document.getElementById('erreurEmail_registration').textContent = '';
+      document.getElementById('erreurPhone_registration').textContent = '';
+      document.getElementById('erreurTrainingType').textContent = '';
+      document.getElementById('erreurTrainingMode').textContent = '';
+
+      // Vérification du champ "Nom"
+      const nom = document.getElementById('name_registration').value;
+      if (nom === '') {
+        document.getElementById('erreurNom_registration').textContent = 'Le nom ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Email"
+      const email = document.getElementById('email_registration').value;
+      if (email === '') {
+        document.getElementById('erreurEmail_registration').textContent = 'L\'email ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+
+      // Vérification du champ "Téléphone"
+      const phone = document.getElementById('phone_registration').value;
+      if (phone === '') {
+        document.getElementById('erreurPhone_registration').textContent = 'Le téléphone ne doit pas être vide.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Type de Formation"
+      const trainingType = document.getElementById('training-type').value;
+      if (trainingType === '') {
+        document.getElementById('erreurTrainingType').textContent = 'Vous devez sélectionner un type de formation.';
+        formulaireCorrect = false;
+      }
+
+      // Vérification du champ "Mode de Formation"
+      const trainingMode = document.getElementById('training-mode').value;
+      if (trainingMode === '') {
+        document.getElementById('erreurTrainingMode').textContent = 'Vous devez sélectionner un mode de formation.';
+        formulaireCorrect = false;
+      }
+
+      // Si quelque chose n'est pas rempli correctement, on empêche l'envoi
+      if (formulaireCorrect) {
+        //Affiche le message de confirmation
+        document.getElementById('confirmationMessage_registration').textContent = 'Formulaire rempli avec succès !';
+        /* Rendre le contaire visible  */
+        document.getElementById('confirmationMessage_registration').style.display = 'block';
+        //Réinitialiser le formulaire
+        document.getElementById('registrationForm').reset();
+
+      }
+
+    });
+
+
+  </script>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script> AOS.init();</script>
+
 </body>
 
 </html>
