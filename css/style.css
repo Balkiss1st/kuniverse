@@ -105,16 +105,17 @@
 /* Style du footer */
 footer {
     background-color: #343a40; /* Couleur de fond sombre chic */
-    color: #f8f9fa; /* Couleur de texte légère */
+    color: #ffd700; /* Couleur de texte légère */
 }
 
 footer a {
-    color: #f8f9fa; /* Liens en blanc */
-    text-decoration: none; /* Supprime le soulignement */
+    color: #000000; /* Liens en blanc */
+    text-decoration: none;
 }
 
 footer a:hover {
-    color: #ffd700; /* Couleur or au survol */
+    color: #ffd900; /* Couleur or au survol */
+    text-decoration: underline; /* Ajoute un soulignement au survol */
 }
 footer h5 {
     margin-bottom: 1.5rem;
